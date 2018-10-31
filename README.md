@@ -2,13 +2,6 @@
 
 These are all my assignments from Programming I (CS1310) in Fall of 2018, taught by Mr. Robert Galus at St. Mary's University.
 
-Table of Contents:
-1. Assignment 1
-2. Assignment 2
-3. Assignment 3
-4. Assignment 4
-/n
-
 1. Assignment 1
 
 First assignment given. Goal was to create a simple program that prompts the user for a number of degrees Fahrenheit to convert to Celsius,
