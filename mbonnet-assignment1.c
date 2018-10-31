@@ -6,7 +6,8 @@
 
 #include <stdio.h>
 
-int main (void) { // Beginning of main
+int main (void)
+{ // Beginning of main
 	
 	double tempCelsius; // Creates variable named tempCelsius; type double in order to create more exact calculations
 	double tempFahrenheit; // Creates variable named tempFahrenheit; double float in order to create more exact calculations
