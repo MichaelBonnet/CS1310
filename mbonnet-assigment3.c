@@ -1,6 +1,6 @@
 /*
  * Michael Bonnet
- * CS1310 Programming 1
+ * CS1310 Programming 1 Section CN
  * Robert Galus
  */
 
