@@ -8,6 +8,7 @@ Table of Contents:
 3. Assignment 3
 4. Assignment 4
 
+
 1. Assignment 1
 First assignment given. Goal was to create a simple program that prompts the user for a number of degrees Fahrenheit to convert to Celsius,
 then converts it and prints the output.
