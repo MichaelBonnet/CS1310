@@ -6,15 +6,16 @@
 
 #include <stdio.h>
 
-int main(void) { // beginning of function main
+int main(void)
+{ // beginning of function main
+	
+	// the last 3 variables are initialized with type double in order to give exact calculations
 	int userConversionChoice; // initializes a variable that will be used to store the choice of what kind of conversion the user wants to do, to be used in if-else branches
 	double userConversionNumber; // Initializes a variable that will be used to store the value the user wishes to convert
 	double CelsiusToFahrenheitResult; // initializes a variable that will be used to store the result of a Celsius to Fahrenheit conversion to later display
 	double FahrenheitToCelsiusResult; // initializes a variable that will be used to store the result of a Fahrenheit to Celsius conversion to later display
 	
-	// the last 3 variables are initialized with type double in order to give exact calculations
-	
-	// the 3 print statements below give the user their options for what they would like to convert and asks them to choose.
+	// the following 3 print statements below give the user their options for what they would like to convert and asks them to choose.
 	printf("Enter 1 to convert Celsius to Fahrenheit\n");
 	printf("Enter 2 to convert Fahrenheit to Celsius\n");
 	printf("Enter 0 to exit\n");
@@ -42,4 +43,5 @@ int main(void) { // beginning of function main
 				
 	} // beginning of else statement #1 (the default branch)
 	return(0); // return statement
+	
 } // end of function main
