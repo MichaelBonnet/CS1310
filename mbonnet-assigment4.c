@@ -1,10 +1,8 @@
-/********************************************************
-
-// Student Name: Michael Bonnet                        //
-// Class Name and Section: Programming I, section CN   //
-// Instructor Name: Robert Galus                       //
-
-********************************************************/
+/*
+ * Michael Bonnet
+ * CS1310 Programming 1 Section CN
+ * Robert Galus
+ */
 
 #include <stdio.h>
 #include <string.h>
