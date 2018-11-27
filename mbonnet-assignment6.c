@@ -12,7 +12,7 @@ int main(void)
 {
 	char userChoice = '-';
 	char userCourse = '-';
-	char studentName = '-';
+	const char *studentName;
 	int i;
 	int j;
 	int numberOfSpots = 25;
@@ -29,22 +29,22 @@ int main(void)
 	
 	for (i = 0; i < 25; i++)
 		{
-			ProgrammingI.registeredStudents[i] = "empty";
+			strncpy(ProgrammingI.registeredStudents[i], "empty", 50);
 		}
 		
 	for (i = 0; i < 25; i++)
 		{
-			ProgrammingII.registeredStudents[i] = "empty";
+			strncpy(ProgrammingII.registeredStudents[i], "empty", 50);
 		}
 		
 	for (i = 0; i < 25; i++)
 		{
-			ObjectOrientedProgrammingI.registeredStudents[i] = "empty";
+			strncpy(ObjectOrientedProgrammingI.registeredStudents[i], "empty", 50);
 		}
 		
 	for (i = 0; i < 25; i++)
 		{
-			ObjectOrientedProgrammingII.registeredStudents[i] = "empty";
+			strncpy(ObjectOrientedProgrammingII.registeredStudents[i], "empty", 50);
 		}
 	
 	while (userChoice != 'q')
@@ -84,7 +84,7 @@ int main(void)
 					{
 						if (ProgrammingI.registeredStudents[i] != "empty")
 						{
-							ProgrammingI.registeredStudents[i] = studentName;
+							strncpy(ProgrammingI.registeredStudents[i], studentName, 50);
 							break;
 						}
 					}
@@ -95,7 +95,7 @@ int main(void)
 						{
 							if (ProgrammingII.registeredStudents[i] != "empty")
 							{
-								ProgrammingII.registeredStudents[i] = studentName;
+								strncpy(ProgrammingII.registeredStudents[i], studentName, 50);
 								break;
 							}
 						}
@@ -104,9 +104,9 @@ int main(void)
 						{
 							for (j = 0; j < numberOfSpots; j++)
 							{
-								if (ObjectOrientedProgrammingI.registeredStudents[i] != "empty")
+								if (ObjectOrientedProgrammingI.registeredStudents[i] != "empty", 50)
 								{
-									ObjectOrientedProgrammingI.registeredStudents[i] = studentName;
+									strncpy(ObjectOrientedProgrammingI.registeredStudents[i], studentName, 50);
 									break;
 								}
 							}
@@ -115,9 +115,9 @@ int main(void)
 							{
 								for (j = 0; j < numberOfSpots; j++)
 								{
-									if (ObjectOrientedProgrammingII.registeredStudents[i] != "empty")
+									if (ObjectOrientedProgrammingII.registeredStudents[i] != "empty", 50)
 									{
-										ObjectOrientedProgrammingII.registeredStudents[i] = studentName;
+										strncpy(ObjectOrientedProgrammingII.registeredStudents[i], studentName, 50);
 										break;
 									}
 								}
