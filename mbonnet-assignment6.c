@@ -76,7 +76,7 @@ int main(void)
 				scanf("%c", userCourse);
 				
 				printf("Please type the name of the student being registered for the course.");
-				scanf("%c", studentName)
+				scanf("%c", studentName);
 				
 				if (userCourse == 1)
 				{
