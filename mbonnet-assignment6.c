@@ -3,7 +3,7 @@
 #include <stdbool.h>
 
 struct course {
-   char courseName;
+   const char *courseName;
    char registeredStudents[25][50];
 
 } course;
@@ -22,29 +22,29 @@ int main(void)
 	struct course ObjectOrientedProgrammingI;
 	struct course ObjectOrientedProgrammingII;
 	
-	ProgrammingI.courseName = 'Programming I';
-	ProgrammingII.courseName = 'Programming II';
-	ObjectOrientedProgrammingI.courseName = 'Object Oriented Programming I';
-	ObjectOrientedProgrammingII.courseName = 'Object Oriented Programming II';
+	ProgrammingI.courseName = "Programming I";
+	ProgrammingII.courseName = "Programming II";
+	ObjectOrientedProgrammingI.courseName = "Object Oriented Programming I";
+	ObjectOrientedProgrammingII.courseName = "Object Oriented Programming II";
 	
 	for (i = 0; i < 25; i++)
 		{
-			ProgrammingI.registeredStudents[i] = '-';
+			ProgrammingI.registeredStudents[i] = "empty";
 		}
 		
 	for (i = 0; i < 25; i++)
 		{
-			ProgrammingII.registeredStudents[i] = '-';
+			ProgrammingII.registeredStudents[i] = "empty";
 		}
 		
 	for (i = 0; i < 25; i++)
 		{
-			ObjectOrientedProgrammingI.registeredStudents[i] = '-';
+			ObjectOrientedProgrammingI.registeredStudents[i] = "empty";
 		}
 		
 	for (i = 0; i < 25; i++)
 		{
-			ObjectOrientedProgrammingII.registeredStudents[i] = '-';
+			ObjectOrientedProgrammingII.registeredStudents[i] = "empty";
 		}
 	
 	while (userChoice != 'q')
@@ -82,7 +82,7 @@ int main(void)
 				{
 					for (j = 0; j < numberOfSpots; j++)
 					{
-						if (ProgrammingI.registeredStudents[i] != '-')
+						if (ProgrammingI.registeredStudents[i] != "empty")
 						{
 							ProgrammingI.registeredStudents[i] = studentName;
 							break;
@@ -93,7 +93,7 @@ int main(void)
 					{
 						for (j = 0; j < numberOfSpots; j++)
 						{
-							if (ProgrammingII.registeredStudents[i] != '-')
+							if (ProgrammingII.registeredStudents[i] != "empty")
 							{
 								ProgrammingII.registeredStudents[i] = studentName;
 								break;
@@ -104,9 +104,9 @@ int main(void)
 						{
 							for (j = 0; j < numberOfSpots; j++)
 							{
-								if (ObjectOrientedProgrammingI.registeredStudents[i] != '-')
+								if (ObjectOrientedProgrammingI.registeredStudents[i] != "empty")
 								{
-									ObjectOrientedProgrammingI[i] = studentName;
+									ObjectOrientedProgrammingI.registeredStudents[i] = studentName;
 									break;
 								}
 							}
@@ -115,7 +115,7 @@ int main(void)
 							{
 								for (j = 0; j < numberOfSpots; j++)
 								{
-									if (ObjectOrientedProgrammingII[i] != '-')
+									if (ObjectOrientedProgrammingII.registeredStudents[i] != "empty")
 									{
 										ObjectOrientedProgrammingII.registeredStudents[i] = studentName;
 										break;
