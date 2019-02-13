@@ -10,8 +10,8 @@ the file 'mbonnet-assignment2.c' is the main .c file for the assignment and the 
 
 the file 'mbonnet-assignment3.c' is the main .c file for the assignment and the single file I turned in.
   Goal was to create a program that prompts the user for what kind of unit conversion they would like to do 
-  (Celsius=>Fahrenheit, Fahrenheit=>Celsius, Inches=>Centimeters, Centimeters=>Inches), then for the value they want to convert. Must use
-  functions, switch statements, and proper commenting.
+  (Celsius=>Fahrenheit, Fahrenheit=>Celsius, Inches=>Centimeters, Centimeters=>Inches), then for the value they want to convert.
+  Must use functions, switch statements, and proper commenting.
   Grade received: 10/10
 
 the file 'mbonnet-assignment4.c' is the main .c file for the assignment and the single file I turned in.
