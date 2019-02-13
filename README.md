@@ -34,4 +34,4 @@ Grade received: 10/10
 
 Fifth assignment given. Goal was to create a program that gave the sum and average of 8 numbers using pointers.
 
-Grade Received: Not yet known.
+Grade Received: 10/10.
