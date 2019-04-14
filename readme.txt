@@ -27,4 +27,8 @@ the file 'mbonnet-assignment6.c' is the main .c file for the assignment and the 
   Goal was to create a program using structs to roughly approximate a class registration system.
   Grade received: 10/10
   
+the file 'mbonnet-assignment7.c' is the main .c file for the assignment and the single file I turned in.
+  Goal was to create a program demonstrating file i/o.
+  Grade received: 10/10
+  
 the file 'readme.txt' is this file.
